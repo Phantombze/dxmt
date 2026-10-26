@@ -1065,6 +1065,7 @@ handle_signature_gs(
       break;
     }
     case microsoft::D3D10_SB_OPERAND_TYPE_INPUT_PRIMITIVEID:
+    case microsoft::D3D11_SB_OPERAND_TYPE_INPUT_GS_INSTANCE_ID:
       break;
     default:
       assert(0 && "unhandled geometry shader input");
